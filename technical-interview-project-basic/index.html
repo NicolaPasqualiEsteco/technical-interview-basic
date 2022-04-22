@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>ToDo Manager</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="todo-container">
+				<p class="todo-container__title">ToDo List</p>
+
+				<div class="centered-row">
+					<input
+						type="text"
+						id="newTodoInput"
+						name="newTodoInput"
+						placeholder="Something to do"
+					/>
+					<button onclick="addToDoFromInput()">Insert</button>
+				</div>
+
+				<ul id="todoList"></ul>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
